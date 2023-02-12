@@ -1,4 +1,4 @@
-const socket = io('http://127.0.0.1:3000')
+const socket = io('http://localhost:5500')
 
 socket.on('chat-message', data => {
     console.log(data)
